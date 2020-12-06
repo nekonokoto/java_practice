@@ -1,17 +1,16 @@
-//±m³J¡GSo during instatiation, Java requires a constructor call for every object that is created@.
 import javax.swing.JOptionPane;
 public class Registration1 {
   public static void main (String[] args){
-  String name=JOptionPane.showInputDialog(null, "¾Ç¥Í©m¦W¡G");
-  String address=JOptionPane.showInputDialog(null,"¦a§}¡G");
+  String name=JOptionPane.showInputDialog(null, "å­¸ç”Ÿå§“åï¼š");
+  String address=JOptionPane.showInputDialog(null,"åœ°å€ï¼š");
   int [] s=new int [5];
   
   for(int i=0;i<5;i++)
   {
-      s[i]=Integer.parseInt(JOptionPane.showInputDialog(null, "¦¨ÁZ "+(i+1)+"¡G"));
+      s[i]=Integer.parseInt(JOptionPane.showInputDialog(null, "æˆç¸¾ "+(i+1)+"ï¼š"));
   };
   Student1 stk=new Student1(name,address,s);
-  JOptionPane.showMessageDialog(null, "¾Ç¥Í©m¦W¡G"+name+" Á`¥­§¡¬°¡G"+stk.printAvg(s));
+  JOptionPane.showMessageDialog(null, "å­¸ç”Ÿå§“åï¼š"+name+" ç¸½å¹³å‡ç‚ºï¼š"+stk.printAvg(s));
 
 }
 }
