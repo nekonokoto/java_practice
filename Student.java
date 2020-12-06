@@ -1,5 +1,4 @@
-//±m³J1:The first task in subclass's constructor must be calling its direct superclass constructor.
-//±m³J2:The package of class object is java.lang.
+
 public class Student {
   protected String name;
   protected String major;
